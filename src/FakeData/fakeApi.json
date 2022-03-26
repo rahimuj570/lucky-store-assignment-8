@@ -1,0 +1,62 @@
+[
+    {
+      "id": "1",
+      "picture": "./img/ (1).jpg",
+      "price": 22,
+      "name": "Harry Porter - Half Blood Prince"
+    },
+    {
+      "id": "2",
+      "picture": "./img/ (2).jpg",
+      "price": 24,
+      "name": "Agatha Christie"
+    },
+    {
+      "id": "3",
+      "picture": "./img/ (10).jpg",
+      "price": 37,
+      "name": "Lord of Ring"
+    },
+    {
+      "id": "4",
+      "picture": "./img/ (3).jpg",
+      "price": 32,
+      "name": "Tale of Two Cities"
+    },
+    {
+      "id": "5",
+      "picture": "./img/ (4).jpg",
+      "price": 34,
+      "name": "The Hobbit"
+    },
+    {
+      "id": "6",
+      "picture": "./img/ (5).jpg",
+      "price": 37,
+      "name": "Think and Grow Rich"
+    },
+    {
+      "id": "7",
+      "picture": "./img/ (6).jpg",
+      "price": 29,
+      "name": "The Cather in The Rye"
+    },
+    {
+      "id": "8",
+      "picture": "./img/ (7).jpg",
+      "price": 39,
+      "name": "Little Prince"
+    },
+    {
+      "id": "9",
+      "picture": "./img/ (8).jpg",
+      "price": 35,
+      "name": "Vinci Code"
+    },
+    {
+      "id": "10",
+      "picture": "./img/ (9).jpg",
+      "price": 33,
+      "name": "Long Hill"
+    }
+  ]
