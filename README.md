@@ -1,3 +1,3 @@
 # Lucky Store
 
-## [Here the live-Site](https://github.com/facebook/create-react-app).
+## [Here the live-Site](https://lucky-store-book.netlify.app/).
