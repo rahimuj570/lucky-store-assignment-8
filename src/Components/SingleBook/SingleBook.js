@@ -1,4 +1,5 @@
 import React from "react";
+import { BsFillCartPlusFill } from "react-icons/bs";
 
 const SingleBook = ({ data, addToCart }) => {
   const { picture, name, price, id } = data;
@@ -15,9 +16,9 @@ const SingleBook = ({ data, addToCart }) => {
         <button></button>
         <button
           onClick={() => addToCart(data)}
-          className="absolute bottom-0 font-bold w-full btn bg-yellow-300 p-1"
+          className="flex justify-center items-center absolute bottom-0 font-bold w-full btn bg-yellow-300 p-1"
         >
-          Add To Cart
+          Add To Cart <BsFillCartPlusFill className="ml-2" />
         </button>
       </div>
     </div>
