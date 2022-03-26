@@ -6,12 +6,10 @@ import { MdRepeatOn } from "react-icons/md";
 const Cart = ({ cart, setCart }) => {
   const [chooseCss, setChooseCss] = useState(0);
   let chooseOneCss = "{ background: #FED7AA }";
-  console.log(cart.length);
   const randomChoose = () => {
     let random = Math.floor(Math.random() * cart.length) + 1;
     setChooseCss(random);
   };
-  console.log(chooseCss);
   let DisBlockNone;
   if (cart.length) {
     DisBlockNone = { display: "flex" };
@@ -25,8 +23,8 @@ const Cart = ({ cart, setCart }) => {
         .chooseOne :nth-child({chooseCss}){chooseOneCss}
       </style>
       <div className="chooseOne">
-        {cart.map((data) => (
-          <SelectedBook key={data.id} data={data}></SelectedBook>
+        {cart.map((data, index) => (
+          <SelectedBook key={index} data={data}></SelectedBook>
         ))}
       </div>
       <button

@@ -13,7 +13,7 @@ const SingleBook = ({ data, addToCart }) => {
           <p className="font-semibold">Name: {name}</p>
           <p className="font-semibold">Price: {price}</p>
         </div>
-        <button></button>
+        <button className=""></button>
         <button
           onClick={() => addToCart(data)}
           className="flex justify-center items-center absolute bottom-0 font-bold w-full btn bg-yellow-300 p-1"
