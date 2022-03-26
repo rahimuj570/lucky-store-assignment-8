@@ -1,7 +1,13 @@
 import React from "react";
-
-const Cart = () => {
-  return <div></div>;
+import SelectedBook from "./SelectedBook";
+const Cart = ({ cart }) => {
+  return (
+    <div>
+      {cart.map((data) => (
+        <SelectedBook key={data.id} data={data}></SelectedBook>
+      ))}
+    </div>
+  );
 };
 
 export default Cart;
