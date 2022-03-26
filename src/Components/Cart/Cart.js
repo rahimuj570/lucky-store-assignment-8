@@ -7,7 +7,7 @@ import "react-toastify/dist/ReactToastify.css";
 
 const Cart = ({ cart, setCart }) => {
   const [chooseCss, setChooseCss] = useState(0);
-  let chooseOneCss = "{ background: #FED7AA }";
+  let chooseOneCss = "{ background: #FED7AA; border: 2px solid red; }";
   const randomChoose = () => {
     let random = Math.floor(Math.random() * cart.length) + 1;
     setChooseCss(random);
