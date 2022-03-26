@@ -1,7 +1,7 @@
 import React from "react";
 
-const SingleBook = () => {
+const Footer = () => {
   return <div></div>;
 };
 
-export default SingleBook;
+export default Footer;
