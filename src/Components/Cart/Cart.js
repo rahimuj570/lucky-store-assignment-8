@@ -2,6 +2,8 @@ import React, { useState } from "react";
 import SelectedBook from "./SelectedBook";
 import { GiCardRandom } from "react-icons/gi";
 import { MdRepeatOn } from "react-icons/md";
+import { ToastContainer, toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 const Cart = ({ cart, setCart }) => {
   const [chooseCss, setChooseCss] = useState(0);
@@ -9,6 +11,7 @@ const Cart = ({ cart, setCart }) => {
   const randomChoose = () => {
     let random = Math.floor(Math.random() * cart.length) + 1;
     setChooseCss(random);
+    toast("🦄 Lets Enjoy The BooK 😎");
   };
   let DisBlockNone;
   if (cart.length) {
@@ -22,6 +25,7 @@ const Cart = ({ cart, setCart }) => {
       <style>
         .chooseOne :nth-child({chooseCss}){chooseOneCss}
       </style>
+      <ToastContainer />
       <div className="chooseOne">
         {cart.map((data, index) => (
           <SelectedBook key={index} data={data}></SelectedBook>
